@@ -1,0 +1,71 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1280px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+.background-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.logo {
+  font-size: 32px;
+  font-weight: 900;
+  color: #1814e5;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-top: 40px;
+}
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+
+.main-nav-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 7px;
+  border-bottom: 2px solid transparent;
+}
+
+.main-nav-link:hover {
+  border-bottom-color: #1814e5;
+}
+
+.social-icons {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 25px;
+}
+
+.social-icons a {
+  color: #000;
+  font-size: 18px;
+  transition: 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+.social-icons a:hover {
+  border-bottom: 2px solid #1814e5;
+}
